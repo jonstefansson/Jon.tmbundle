@@ -2,14 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>contactEmailRot13</key>
-	<string>wbafgrs1667@tznvy.pbz</string>
-	<key>contactName</key>
-	<string>Jon Stefansson</string>
-	<key>description</key>
-	<string>My custom Textmate bunlde.</string>
 	<key>name</key>
-	<string>Jon Bundle</string>
+	<string>Jon</string>
 	<key>uuid</key>
 	<string>8022E73D-35DC-427C-9352-E5DDD6E64931</string>
 </dict>

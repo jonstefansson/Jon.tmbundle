@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+# Prints a +----+ with enough - chararacters to fill selection
+start_col     = ENV['TM_INPUT_START_COLUMN'].to_i
+end_col       = ENV['TM_COLUMN_NUMBER'].to_i
+selected_text = ENV['TM_SELECTED_TEXT']
+print '+'
+(end_col - start_col - 2).times {print '-'}
+print '+'
+</string>
+	<key>fallbackInput</key>
+	<string>none</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Draw Box Line</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>61D38BEC-D9EB-43B3-A883-87948B70ADCA</string>
+</dict>
+</plist>
