@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># Preventing referencing undefined variables
+set -o nounset
+# Do not ignore failing commands
+set -o errexit
+</string>
+	<key>name</key>
+	<string>Bash Safety</string>
+	<key>scope</key>
+	<string>source.shell</string>
+	<key>tabTrigger</key>
+	<string>safety</string>
+	<key>uuid</key>
+	<string>969751A2-A7F8-45D1-8349-7E8EA3866E03</string>
+</dict>
+</plist>

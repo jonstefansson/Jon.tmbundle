@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require 'rubygems'
+require 'bundler/setup'
+
+Dir[File.join(File.dirname(__FILE__), 'lib/**/*.rb')].each do |f|
+  require f
+end
+</string>
+	<key>name</key>
+	<string>Bundler Require</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>bundler</string>
+	<key>uuid</key>
+	<string>56F2CD54-D790-460C-B9F2-9B34A7B96E66</string>
+</dict>
+</plist>

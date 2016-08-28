@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>path = File.expand_path('../../lib', __FILE__) and (\$LOAD_PATH.unshift(path) unless \$LOAD_PATH.include?(path))</string>
+	<key>name</key>
+	<string>Ruby Load Path</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>load_path</string>
+	<key>uuid</key>
+	<string>926331F2-380D-4391-94E9-166E181C35B1</string>
+</dict>
+</plist>

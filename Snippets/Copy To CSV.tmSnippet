@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>COPY (
+  ${1}
+) TO STDOUT WITH (FORMAT CSV, HEADER TRUE)
+</string>
+	<key>name</key>
+	<string>Copy To CSV</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>csv</string>
+	<key>uuid</key>
+	<string>AD7E60F1-CF69-4419-A968-42A67B15BFE7</string>
+</dict>
+</plist>
